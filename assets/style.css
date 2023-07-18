@@ -1,0 +1,123 @@
+/* Common css start here */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+:root{
+    --primary-color:red;
+    --btn-pink:#FF42A5;
+    --header-font:3rem;
+    --nav-p-font:1.2rem;
+    --span-color:#F948B2, #8758F1;
+    --heading-colo:#0B0223;
+    --p-tag-color:#534C64;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+
+.section-button{
+    background-color: var(--btn-pink);
+    padding: 1rem 2rem;
+    border-radius: 48px;
+    border: none;
+}
+
+            /* navbar css stars here */
+
+            .navbar{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+            .logo-container{
+                display: flex;
+                align-items: center;
+                font-size: var(--header-font);
+                font-weight: 700;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+            .logo-text >span{
+               color: var(--btn-pink);
+               margin-left: .8rem;
+            }
+            .navbar >ul{
+                display: flex;
+                list-style: none;
+                align-items: center;
+            }
+            .navbar ul>li{
+                margin-right: 1.5rem;
+                font-size: var(--nav-p-font);
+                font-weight: 500;
+                color: #3C354F;
+                cursor: pointer;
+            }
+            .nav-logo{
+                padding: .7rem 1.5rem .7rem 1.5rem;
+                background-color:rgba(11, 2, 35, 0.10) ;
+                border-radius: 8px;
+            }
+            .fa-brands{
+                margin-left: 1rem;
+            }
+
+            /* banner section css stars here */
+            .banner-container{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                align-items: center;
+            }
+            .banner-image{
+                height: 500px;
+            }
+            .section-title{
+                color: var(--heading-colo);
+                font-size: var(--header-font);
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            .banner-title{
+                font-family: Work Sans;
+                font-size: 5rem;
+                font-weight: 800;
+                text-transform: uppercase;
+                color:#8758F1;
+            }
+            .banner-li,li{
+                list-style: none;
+                color: var(--p-tag-color);
+                font-size: var(--nav-p-font);
+                font-weight: 500;
+                text-transform: lowercase;
+                margin: .5rem;
+            }
+            .banner-btn{
+                    background-color: #4EC5F7;
+                    padding: 1rem 2rem;
+                    border-radius: 48px;
+                    border: none;
+                    margin-left: 1rem;
+            }

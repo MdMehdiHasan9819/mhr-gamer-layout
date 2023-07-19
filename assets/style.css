@@ -184,3 +184,20 @@ a{
                     text-align: center;
                 }
             }
+
+
+            /* tablet media query css starts here now */
+            @media screen and (min-width:577px) and (max-width:960px) {
+                .container{
+                    margin-right: 1rem;
+                    margin-left: 1rem;
+                }
+                .navbar{
+                    flex-direction: column;
+                }
+                .banner-container{
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                    text-align: center;
+                }
+            }

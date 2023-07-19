@@ -111,7 +111,7 @@ a{
                 color: var(--p-tag-color);
                 font-size: var(--nav-p-font);
                 font-weight: 500;
-                text-transform: lowercase;
+                text-transform: uppercase;
                 margin: .5rem;
             }
             .banner-btn{
@@ -120,4 +120,67 @@ a{
                     border-radius: 48px;
                     border: none;
                     margin-left: 1rem;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* navbar and banner section media query css starts here */
+            @media screen and (max-width:576px) {
+                .container{
+                    margin-right: 1rem;
+                    margin-left: 1rem;
+                }
+                .navbar{
+                    flex-direction: column;
+                }
+                .navbar >ul{
+                    flex-direction: column;
+                }
+
+                .banner-container{
+                    grid-template-columns: 1fr;
+                    align-items: center;
+                }
+                .banner-header{
+                    text-align: center;
+                }
             }

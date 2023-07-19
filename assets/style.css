@@ -240,15 +240,117 @@ a{
                     content: "";
                 }
 
+                /* custom button css star now */
+                #custom-btn-text{
+                    background-color: whitesmoke;
+                    padding-top: 5rem;
+                    padding-bottom: 5rem ;
+                    
+                }
+                .custom-btn-first-part1{
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .custom-btn-first-part2{
+                    display: flex;
+                    justify-content: space-around;
+                    margin-right: 2.5rem;
+                    margin-left: 2.5rem;
+                }
+                .custom-btn-edit{
+                    color: #0B0223;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    line-height: normal;
+                    color: #0B0223;
+                    padding: .5rem 1rem;
+                    border-radius: 50px;
+                    background-color: transparent ;
+                    border: none;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .custom-btn-edit>img{
+                    margin-right: 1rem;
+                }
+                .custom-btn-edit:hover{
+                    border: 1px solid #F948B2;
+                    background-color: #fff;
+                    color: #F948B2;
+                    transition: all .8s;
+                }
 
 
+                    /* footer section css */
+                    footer{
+                        background-color: #0B0223;
+                        padding-top: 5rem;
+                        padding-bottom: 5rem;
+                    }
 
+                    .logo-footer{
+                        display: flex;
+                        align-items: center;
+                        font-size: var(--header-font);
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        justify-content: center;
+                        color: #fff;
+                    }
+                    .logo-text >span{
+                       color: var(--btn-pink);
+                       margin-left: .8rem;
+                    }
 
+                    .footer-button{
+                        margin-top: 3rem;
+                        display: flex;
+                        justify-content: space-between;
+                        justify-content: center;
+                        margin-bottom: 3rem;
+                        color: #fff;
+                        text-align: center;
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        
+                    }
+                    .footer-button li >a{
+                        color: #fff;
+                        padding-right: 2rem;
+                    }
+                    .footer-icon{
+                        margin-top: 3rem;
+                        display: flex;
+                        justify-content: space-between;
+                        justify-content: center;
+                        margin-bottom: 3rem;
+                    }
 
+                    .footer-anchor{
+                        display: flex;
+                        justify-content: space-between;
+                        justify-content: center;
+                        margin-bottom: 1rem;
+                        text-align: center;
+                        font-size: .5rem;
+                        text-align: center;
+                        font-weight: 500;
+                    }
 
+                    .footer-anchor li >a{
+                        color: rgba(255, 255, 255, 0.60);
+                    }
 
-
-
+                    .footer-copy-right{
+                        color: rgba(255, 255, 255, 0.60);
+                        text-align: center;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
 
 
 
@@ -331,6 +433,10 @@ a{
                     width: 250px;
                     height: 250px;
                 }
+
+            
+                
+
 
             }
 

@@ -190,15 +190,55 @@ a{
                 }
                 .our-game-description{
                     color: #534C64;
-                    font-family: Work Sans;
-                    font-size: 32px;
+                    font-size: 2rem;
                     font-style: normal;
                     font-weight: 700;
                     line-height: 45px;
                 }
 
+                /* play instantly css starts here */
+                .play-instantly{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2rem;
+                    position: relative;
+                    margin-top: 5rem;
+                    margin-bottom: 8rem;
+                    padding-right: 110px;
+                }
 
-
+                    .play-instantly-image{
+                        position: absolute;
+                        top: 263px;
+                        right: 558px;
+                    }
+                    .play-instantly-header{
+                        margin-left: 150px;
+                    }
+                    .img-fluid-absolute{
+                        width: 250px;
+                        height: 250px;
+                    }
+                    .play-instantly-title{
+                        color: var(--heading-colo);
+                        font-family: Work Sans;
+                        font-size: 2.5rem;
+                        font-weight: 700;
+                    }
+                    .play-instantly-description{
+                        color: #534C64;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        margin-top: 1rem;
+                    }
+                    .play-instantly-span{
+                        color: #8758F1;
+                    }
+                .img-fluid-relative{
+                    content: "";
+                }
 
 
 
@@ -256,6 +296,42 @@ a{
                     grid-template-columns: 1fr;
                     gap: 15px;
                 }
+
+                /* we are games section media query */
+                .we-are-gamer{
+                   display: flex;
+                   flex-direction: column-reverse;
+                }
+                .we-are-gamer-header{
+                    text-align: center;
+                }
+
+                /* play instantly media query css */
+                .play-instantly{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    padding-right: 0px;
+            
+                }
+                .play-instantly-image{
+                    position: absolute;
+                    top: 475px;
+                    right: -14px;
+                }
+                .img-fluid-absolute{
+                    width: 120px;
+                    height: 120px;
+                }
+                .play-instantly-header{
+                    margin-left: 0px;
+                    text-align: center;
+                }
+
+                .img-fluid-relative{
+                    width: 250px;
+                    height: 250px;
+                }
+
             }
 
 
@@ -278,5 +354,38 @@ a{
                     display: grid;
                     grid-template-columns: repeat(2,1fr);
                     gap: 15px;
+                }
+                /* we are gamer section media query */
+                .we-are-gamer{
+                    display: flex;
+                    flex-direction: column-reverse;
+                 }
+                 .we-are-gamer-header{
+                     text-align: center;
+                 }
+
+                    /* play instantly media query css */
+                 .play-instantly{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    padding-right: 0px;
+                }
+                .play-instantly-image{
+                    position: absolute;
+                    top: 523px;
+                    right: 22px;
+                }
+                .img-fluid-absolute{
+                    width: 190px;
+                    height: 190px;
+                }
+                .play-instantly-header{
+                    margin-left: 0px;
+                    text-align: center;
+                }
+
+                .img-fluid-relative{
+                    width: 450px;
+                    height: 450px;
                 }
             }

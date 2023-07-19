@@ -36,10 +36,27 @@ a{
 }
 
 .section-button{
+    color: #fff;
     background-color: var(--btn-pink);
     padding: 1rem 2rem;
     border-radius: 48px;
     border: none;
+    text-transform: uppercase;
+}
+
+.section-description{
+    color: var(--nav-p-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-title{
+    color: var(--heading-colo);
+    font-size: var(--header-font);
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
             /* navbar css stars here */
@@ -93,12 +110,7 @@ a{
             .banner-image{
                 height: 500px;
             }
-            .section-title{
-                color: var(--heading-colo);
-                font-size: var(--header-font);
-                font-weight: 600;
-                text-transform: uppercase;
-            }
+            
             .banner-title{
                 font-family: Work Sans;
                 font-size: 5rem;
@@ -122,13 +134,68 @@ a{
                     margin-left: 1rem;
             }
 
+            /* online games css start here now */
+                .section-header{
+                    text-align: center;
+                }
+                .online-games{
+                    margin-top: 6rem;
+                    margin-bottom:5rem ;
+                }
+                .online-image{
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                    gap: 15px;
+                }
+                .online-title{
+                    color: #8758F1;
+                    font-size: var(--header-font);
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .online-card{
+                    border-radius: 1rem;
+                    border: 1px solid lightgray;
+                    padding: 1rem;
+                    background-color: #fff;
+                }
 
-
-
-
-
-
-
+                /* we-are-gamer css starts here now */
+                #we-are-gamer{
+                    background-color: rgb(245, 236, 243);
+                }
+                .we-are-gamer{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    text-align: center;
+                    padding-top: 5rem;
+                    padding-bottom: 5rem;
+                    gap: 1rem;
+                }
+                .we-are-gamer-header{
+                    text-align: right;
+                }
+                .gamer-title{
+                    font-size: 4rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color:#8758F1;
+                }
+                .gamer-span{
+                    color: #534C64;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    line-height: 45px;
+                    text-overflow: ellipsis;
+                }
+                .our-game-description{
+                    color: #534C64;
+                    font-family: Work Sans;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 45px;
+                }
 
 
 
@@ -166,8 +233,8 @@ a{
             /* navbar and banner section media query css starts here */
             @media screen and (max-width:576px) {
                 .container{
-                    margin-right: 1rem;
-                    margin-left: 1rem;
+                    margin-right: 2.5rem;
+                    margin-left: 2.5rem;
                 }
                 .navbar{
                     flex-direction: column;
@@ -183,14 +250,20 @@ a{
                 .banner-header{
                     text-align: center;
                 }
+                /* online games media query css */
+                .online-image{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 15px;
+                }
             }
 
 
             /* tablet media query css starts here now */
             @media screen and (min-width:577px) and (max-width:960px) {
                 .container{
-                    margin-right: 1rem;
-                    margin-left: 1rem;
+                    margin-right: 2.5rem;
+                    margin-left: 2.5rem;
                 }
                 .navbar{
                     flex-direction: column;
@@ -199,5 +272,11 @@ a{
                     grid-template-columns: 1fr;
                     align-items: center;
                     text-align: center;
+                }
+                    /* online image media query css */
+                .online-image{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 15px;
                 }
             }

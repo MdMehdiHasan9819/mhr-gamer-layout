@@ -96,6 +96,8 @@ a{
                 padding: .7rem 1.5rem .7rem 1.5rem;
                 background-color:rgba(11, 2, 35, 0.10) ;
                 border-radius: 8px;
+                display: flex;
+                align-items: center;
             }
             .fa-brands{
                 margin-left: 1rem;
@@ -261,8 +263,6 @@ a{
                     color: #0B0223;
                     font-size: 1rem;
                     font-weight: 600;
-                    line-height: normal;
-                    color: #0B0223;
                     padding: .5rem 1rem;
                     border-radius: 50px;
                     background-color: transparent ;
@@ -343,6 +343,9 @@ a{
                     .footer-anchor li >a{
                         color: rgba(255, 255, 255, 0.60);
                     }
+                    .fa-brands1{
+                        font-size: 3rem;
+                    }
 
                     .footer-copy-right{
                         color: rgba(255, 255, 255, 0.60);
@@ -351,22 +354,6 @@ a{
                         font-weight: 500;
                         line-height: normal;
                     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -434,9 +421,30 @@ a{
                     height: 250px;
                 }
 
-            
-                
 
+            /* custom btn media query section css */
+            .custom-btn-first-part1{
+                    display: flex;
+                    justify-content: space-around;
+                    padding-left: 2rem;
+                    flex-direction: column;
+                }
+            .custom-btn-first-part2{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                }
+
+
+                /* footer media query css */
+                .footer-button{
+                    margin-top: 3rem;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .footer-anchor{
+                    display: block;
+                }
 
             }
 
@@ -446,6 +454,7 @@ a{
                 .container{
                     margin-right: 2.5rem;
                     margin-left: 2.5rem;
+                    padding: 0px;
                 }
                 .navbar{
                     flex-direction: column;
@@ -493,5 +502,28 @@ a{
                 .img-fluid-relative{
                     width: 450px;
                     height: 450px;
+                }
+
+                /* custom btn media query css */
+                .custom-btn-first-part1{
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .custom-btn-first-part2{
+                    display: flex;
+                    justify-content: space-around;
+                }
+
+                /* footer section media query css */
+                .footer-button{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                }
+                .footer-anchor{
+                    display: block;
+                }
+                .footer-anchor{
+                    margin-bottom: 1rem;
                 }
             }
